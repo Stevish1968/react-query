@@ -22,8 +22,8 @@ const Joke = () => {
         <>
             {!data ? (
                 <Card
-                    header="No Jokes at this time."
-                    body="Sorry, there are not jokes at this time"
+                    header="Welcome to Joke Time"
+                    body="Click on the button below to start"
                     onClick={onRefetchHandler}
                 />
             ) : (
