@@ -1,0 +1,36 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    border: solid 1px green;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    background: whitesmoke;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 2rem 0 2rem 0;
+    letter-spacing: .15rem;
+}
+
+.btn {
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    background: green;
+    color: white;
+    border-radius: 1rem;
+}
+
+.btnDiv {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
